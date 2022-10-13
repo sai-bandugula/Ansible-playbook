@@ -1,7 +1,7 @@
 ---
 
 - name: deploy techmax website
-  hosts: all
+  hosts: webservers
   become: yes
   become_user: root
 
